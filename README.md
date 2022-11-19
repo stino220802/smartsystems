@@ -12,7 +12,9 @@ First create a path on your computer where you want to store the app. Then copy 
 
 Now open a command prompt window and cd in the folder where you created your files. Type flyctl launch this, this will ask you to specify a few things. First it will ask you if it can overwrite the Procfile, say yes. Then it will ask you to give your app a name, don't use special characters, numbers or capital letters. This will crash the launch sequence. After that you need to specify a region with the arrow keys, choose amsterdam(ams). And finally it will ask you to create a postgresql database, choose no because it won't allow you to make one because you have the free plan. Now if you look into your folder a fly.toml file has appeared. In this file you to change the build package. 
 
-![image]()
+![image](https://github.com/stino220802/smartsystems/blob/main/pictures/flytoml.PNG) 
+
+Under [build], you see a variable builder. Change that to "paketobuildpacks/builder:base" as shown in the image above.
 
 
 
