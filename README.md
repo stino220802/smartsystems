@@ -19,6 +19,11 @@ Under [build], you see a variable builder. Change that to "paketobuildpacks/buil
 ### **flyctl deploy**
 Now in the same cmd window type flyctl deploy, this upload your app to fly. This will take a while!!! 
 
-![image]()
+![image](https://github.com/stino220802/smartsystems/blob/main/pictures/deploy.PNG)
+
+### **result**
+Now if you open fly.io in your browser you can go to your app.
+
+
 
 
