@@ -8,6 +8,7 @@ First you need to install the flyctl cmd tool. To do this follow [this](https://
 First create a path on your computer where you want to store the app. Then copy the main.py file found [here](https://github.com/stino220802/smartsystems/blob/main/flaskpython/main.py). Also you need to copy the requirements file found [here](https://github.com/stino220802/smartsystems/blob/main/flaskpython/requirements.txt). Then we need to create a Procfile, [example](https://github.com/stino220802/smartsystems/blob/main/flaskpython/Procfile). In this Procfile you see you need to specify web: gunicorn server:app . app Stands for the function you created in your main.py file. As you can see in my example on line 23 it says app.run(), this is where app comes from.
 
 ### **flyctl launch**
+![image](https://github.com/stino220802/smartsystems/blob/main/pictures/launch.PNG). 
 
 
 
