@@ -28,7 +28,7 @@ Now if you open fly.io in your browser you can go to your app.
 
 Here you will see a field called Hostname with a link as shown in the picture above, now click this link. It will say not found, after the link put /hi and you will see the result as shown below
 
-![image]()
+![image](https://github.com/stino220802/smartsystems/blob/main/pictures/outputFlask.PNG)
 
 
 
