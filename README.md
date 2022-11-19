@@ -16,5 +16,9 @@ Now open a command prompt window and cd in the folder where you created your fil
 
 Under [build], you see a variable builder. Change that to "paketobuildpacks/builder:base" as shown in the image above.
 
+### **flyctl deploy**
+Now in the same cmd window type flyctl deploy, this upload your app to fly. This will take a while!!! 
+
+![image]()
 
 
