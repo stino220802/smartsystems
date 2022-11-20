@@ -30,6 +30,15 @@ Here you will see a field called Hostname with a link as shown in the picture ab
 
 ![image](https://github.com/stino220802/smartsystems/blob/main/pictures/outputFlask.PNG)
 
+## **dbflaskpython**
+Doesn't work yet
 
+## **dockerflask**
+Again start with creating a path where you want to store your app. Copy the files from the dockerflask path in this repo, except the fly.toml file. Now open a cmd window and run flyctl launch. Now again you need to specify the name of your app region and if you want a postgress database. Now in your folder the toml file has apeared. Remove the build instruction and change the internal_port to whatever you specified in app.py as shown below. 
 
+![image](https://github.com/stino220802/smartsystems/blob/main/pictures/dockerflasktoml.PNG)
+
+After that you need to run flyctl deploy and your app will run. You can find it the same way as the python flask app. The result should be this. 
+
+![image](https://github.com/stino220802/smartsystems/blob/main/pictures/dockerflask.PNG)
 
